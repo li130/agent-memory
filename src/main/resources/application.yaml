@@ -1,0 +1,12 @@
+agent-memory:
+  base-path: ${user.home}/.agent-memory
+  project-name: AI助手记忆库
+  llm:
+    provider: openai
+    api-key: ${DEEPSEEK_API_KEY:your-api-key-here}
+    model: deepseek-v4-pro
+    base-url: https://api.deepseek.com
+
+spring:
+  main:
+    banner-mode: off
